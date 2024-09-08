@@ -1,5 +1,5 @@
 export function mouseOver() {
-    document.querySelectorAll('.cta').forEach(btn => {
+    document.querySelectorAll('.diraction_aware_hover').forEach(btn => {
         btn.addEventListener('mousemove', (e) => {
             let rect = btn.getBoundingClientRect();
             let mx = e.clientX - rect.left;
