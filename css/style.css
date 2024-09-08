@@ -1,7 +1,7 @@
 ul.menu li { padding: 10px 0px; }
 .header .header_inner .header_content { display: flex; align-items: center; justify-content: space-between; }
 .header .header_inner .header_content .header_navigations_links { display: block; }
-.header_navigations_links ul { display: flex; }
+.header_navigations_links ul { display: flex; align-items: center; gap: 30px; }
 .menu-toggle { display: none; }
 .off-canvas-menu ul { margin: 0; padding: 0; list-style: none; flex-grow: 1; }
 .off-canvas-menu ul li { padding: 15px; }

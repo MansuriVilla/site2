@@ -1,5 +1,5 @@
-// import { mouseOver } from './modules/mouseover.js';
+import { mouseOver } from './modules/mouseover.js';
 import { offcanvsMenu } from './modules/offcanvasmenu.js';
 
-// mouseOver();
+mouseOver();
 offcanvsMenu();
