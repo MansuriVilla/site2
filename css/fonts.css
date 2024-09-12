@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Medium.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Bold.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Regular.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../assets/fonts/Inter28pt-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Inter28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../assets/fonts/Inter28pt-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Inter28pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../assets/fonts/Inter28pt-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
