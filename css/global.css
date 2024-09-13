@@ -1,4 +1,16 @@
 body { font-size: 20px; font-weight: 400; }
+
+/* RESET CSS START */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+ul { list-style: none; padding: 0; margin: 0; }
+a { text-decoration: none; color: inherit; }
+input,input:hover, textarea,textarea:hover, button,button:hover { outline: none; border: none; box-shadow: none; }
+a:visited { color: transparent; }
+h1,h2,h3,h4,h5,h6,p{margin: 0px; padding: 0px;}
+
+/* RESET CSS END */
+
 :root { --theme-clr:#AF5E3E; }
 
 
@@ -13,9 +25,11 @@ body { font-size: 20px; font-weight: 400; }
 p{font-family: 'Inter 28pt';}
 h1,h2,h3,h4,h5,h6{text-transform: uppercase; font-family: 'Barlow Semi Condensed';}
 h1{font-size: 70px; font-weight: 500;}
-h2{font-weight: 500; font-size: 42px; color: #000;}
+h2{font-weight:  500; font-size: 42px; color: #000;}
 h3{font-size: 24px; font-weight: 500;}
-a{font-size: 18px; color: #AF5E3E; font-weight: 600; font-family: 'Inter 28pt';}
+a{font-size: 18px; font-weight: 600; font-family: 'Inter 28pt'; text-decoration: none;}
+
+a:not(.header_nav_links, .cta ){color: #AF5E3E;}
 
 
 /* COMMON TITLE CSS END */
@@ -39,7 +53,9 @@ a{font-size: 18px; color: #AF5E3E; font-weight: 600; font-family: 'Inter 28pt';}
 
 
 /* button css start */
+
 .cta { display: block; background-color: #101010; border-radius: 50px; padding:10px 25px; color: #fff; position: relative; overflow: hidden; z-index: 9999; }
 .cta::before { content: ''; z-index: -1; top: var(--y); left: var(--x); display: block; height: 0px; width: 0px; border-radius: 50%; background-color: var(--theme-clr); transition: .25s linear; position: absolute; transform: translate(-50%,-50%); }
 .cta:hover::before { height: 150px; width: 150px; }
+
 /* button css end */

@@ -1,8 +1,13 @@
+
+/* Header css start */
+
+
+
 .header .header_inner { padding: 30px 15px; }
 .header .header_inner .header_content { display: flex; align-items: center; justify-content: space-between; }
 .header .header_inner .header_content .header_navigations_links { display: block; }
 .header_navigations_links ul { display: flex; align-items: center; gap: 30px; }
-.menu-toggle,.off-canvas-menu { display: none; }
+.header .menu-toggle,.off-canvas-menu { display: none; }
 ul.menu li { padding: 10px 0px; }
 .off-canvas-menu ul { margin: 0; padding: 0; list-style: none; flex-grow: 1; }
 .off-canvas-menu ul li { padding: 15px; }
@@ -10,9 +15,6 @@ ul.menu li { padding: 10px 0px; }
 .off-canvas-menu .cta { color: white; text-decoration: none; font-weight: bold; }
 .off-canvas-menu.active { transform: translateX(0); }
 .menu-close { background: none; border: none; font-size: 2em; color: white; cursor: pointer; }
-@media only screen and (max-width: 768px) {
- .off-canvas-menu { position: fixed; top: 0; right: 0; height: 100%; width: 100%; background: #333; color: white; transform: translateX(100%); transition: transform 0.3s ease; z-index: 1000; display: flex; flex-direction: column; }
-.header_navigations_links { display: none; }
-.menu-toggle,.off-canvas-menu { display: block; }
-.off-canvas-menu .cta_main { display: block; }
- }
+
+
+/* Header css end */
