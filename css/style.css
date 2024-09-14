@@ -1,8 +1,5 @@
-
 /* Header css start */
-
-
-
+.header { position: absolute; background: linear-gradient(180deg, #000, transparent); z-index: 9999; width: 100%; }
 .header .header_inner { padding: 30px 15px; }
 .header .header_inner .header_content { display: flex; align-items: center; justify-content: space-between; }
 .header .header_inner .header_content .header_navigations_links { display: block; }
@@ -15,49 +12,29 @@ ul.menu li { padding: 10px 0px; }
 .off-canvas-menu .cta { color: white; text-decoration: none; font-weight: bold; }
 .off-canvas-menu.active { transform: translateX(0); }
 .menu-close { background: none; border: none; font-size: 2em; color: white; cursor: pointer; }
-
-
+.header a { color: #fff; }
 /* Header css end */
-
-
-
+/* banner css start */
+.hero_inner { height: 100vh; width: 100%; overflow: hidden; }
+.hero_inner .banner_content { position: absolute; top: 0; z-index: 999; height: 100%; width: 100%; }
+.hero_inner .banner_content .content_inner { position: relative; color: #fff; top: 30%; max-width: 708px; width: 100%; left: 16%; }
+.banner_overlay::before { content: ''; position: absolute; height: 100%; width: 100%; background: linear-gradient(90deg, #000, transparent); display: block; }
+.content_inner p { margin-top: 30px; margin-bottom: 50px; max-width: 447px; width: 100%; }
+/* banner css end */
+/* service card css start */
+#service-cards-section { margin-top: -77px; position: relative; z-index: 999; }
+.service_card_inner .service_cards_row { display: flex; }
+.service_card { max-width: 380px; width: 100%; margin-right: 30px; }
+.service_card .service_card_link { padding: 25px; background-color: #fff; display: flex; justify-content: space-between; }
+/* service card css end */
 /* About seciton start */
-
-
-.section__content__inner {
-    justify-content: space-between;
-    padding: 50px 0px;
-  }
-
-
-  
-  .section__right__content {
-    display: flex;
-    width: 100%;
-  }
-  .section__cta__holder{margin-top:40px ;}
-  .section__cta .section__icon i{transition: .25s ease all; transform-origin: center;}
-  
-  .section__cta:hover .section__icon i{transform: rotate(-45deg);}
-  
-  .about__exp_block {
-    background: var(--theme-clr);
-    color: #fff;
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    row-gap: 86px;
-
-  }
-  .about__exp_block h3{font-size: 80px;}
-  .about__exp_block.black{
-    background: #000;
-    margin-top: 30px;
-    margin-bottom: 0;
-  }
-  .about_exp_p{font-size: 24px;}
-
+.section__content__inner { justify-content: space-between; padding: 50px 0px; }
+.section__right__content { display: flex; width: 100%; }
+.section__cta__holder { margin-top:40px ; }
+.section__cta .section__icon img { transition: .25s ease all; transform-origin: center; }
+.section__cta:hover .section__icon img { transform: rotate(-45deg); }
+.about__exp_block { background: var(--theme-clr); color: #fff; width: 100%; margin-bottom: 30px; padding: 30px; display: flex; flex-direction: column; justify-content: space-between; row-gap: 86px; }
+.about__exp_block h3 { font-size: 80px; }
+.about__exp_block.black { background: #000; margin-top: 30px; margin-bottom: 0; }
+.about_exp_p { font-size: 24px; }
 /* About seciton end */
