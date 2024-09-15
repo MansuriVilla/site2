@@ -12,7 +12,7 @@ ul.menu li { padding: 10px 0px; }
 .off-canvas-menu .cta { color: white; text-decoration: none; font-weight: bold; }
 .off-canvas-menu.active { transform: translateX(0); }
 .menu-close { background: none; border: none; font-size: 2em; color: white; cursor: pointer; }
-.header a { color: #fff; }
+.header a { color: #fff; height: 100%; display: block; }
 /* Header css end */
 /* banner css start */
 .hero_inner { height: 100vh; width: 100%; overflow: hidden; }
@@ -65,4 +65,13 @@ ul.menu li { padding: 10px 0px; }
 .git_content_main .git_content { max-width: 435px; width: 100%; position: relative; top: 25%; left: 100px; }
 /* footer css start */
 .footer-email-section { background-color: var(--theme-clr); }
+.footer-email-section .email_section_inner { display: flex; align-items: center; justify-content: space-between; padding: 40px 0px; }
+.footer-email-section .email_content p { color: #fff; font-size: 32px; max-width: 518px; }
+.footer-email-section .email_input_area { border-radius: 50px; border: 1px solid #fff; display: inline-flex; justify-content: space-between; align-items: center; height: fit-content; padding: 12px 30px; max-width: 532px; width: 100%; }
+#footer .footer-main { padding: 60px 0px; }
+#footer .footer-main .footer_inner { display: flex; align-items: flex-start; justify-content: space-between; }
+#footer .footer-main .footer__left a img { max-width: 147px; width: 100%; }
+#footer .footer-main .footer__right .contact_details { display: flex; flex-direction: column; gap: 30px; max-width: 341px; width: 100%; }
+#footer .footer-main .footer__right .contact_details a { color: #fff; }
+#footer .footer-main li a { color: #fff; font-size: 18px; margin: 0px 0px 40px; display: block; }
 /* footer css end */
