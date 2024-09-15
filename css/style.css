@@ -28,7 +28,7 @@ ul.menu li { padding: 10px 0px; }
 .service_card .service_card_link { padding: 25px; background-color: #fff; display: flex; justify-content: space-between; flex-wrap: wrap; }
 /* service card css end */
 #our-product { position: relative; }
-.our_products_title { margin: 0px 0px 80px; border-bottom: 1px solid #fff; }
+.our_products_title { margin: 0px 0px 80px; border-bottom: 1px solid #fff; padding-left: 0px; }
 .our_products_title h2 { padding-bottom: 20px; color: #fff; }
 #our-product::before { content: ""; position: absolute; background-color: #000; height: 600px; width: 100%; z-index: -1; }
 .our-products-section { padding-left:312px ; padding-top:100px ; }
