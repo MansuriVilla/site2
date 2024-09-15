@@ -42,6 +42,7 @@ a:not(.header_nav_links, .cta ) { color: #AF5E3E; }
 /* button css end */
 /* icon css start */
 .theme_icon { max-width: 20px; width: 100%; }
+.theme_icon__resize { max-width: 35px; }
 /* icon css end */
 /* slider button css start */
 .owl-nav { display: flex; gap: 20px; position: absolute; top: -139px; right: 288px; }

@@ -27,19 +27,6 @@ ul.menu li { padding: 10px 0px; }
 .service_card { max-width: 380px; width: 100%; margin-right: 30px; }
 .service_card .service_card_link { padding: 25px; background-color: #fff; display: flex; justify-content: space-between; flex-wrap: wrap; }
 /* service card css end */
-#our-product { position: relative; }
-.our_products_title { margin: 0px 0px 80px; border-bottom: 1px solid #fff; padding-left: 0px; }
-.our_products_title h2 { padding-bottom: 20px; color: #fff; }
-#our-product::before { content: ""; position: absolute; background-color: #000; height: 600px; width: 100%; z-index: -1; }
-.our-products-section { padding-left:312px ; padding-top:100px ; }
-.slider__p__content { margin-top: 15px; border-top: 1px solid #000; padding-top: 20px; padding-right: 40px; /* padding-bottom: 13px; */ }
-.our-products-section .service_card { max-width: 420px; }
-.our-products-section .service_card .service_card_link .section__icon { margin-right: 10px; }
-.our-products-section .service_card .service_card_link { padding: 40px; padding-right: 0px; padding-bottom: 53px; height: 348px; }
-.our-products-section .service_card p { color: #000; opacity: .8; }
-.service_card_link.section__cta:hover { background: var(--theme-clr); color: #fff; }
-.service_card_link.section__cta:hover p { color: #fff; opacity: 1; }
-.service_card_link.section__cta:hover .slider__p__content { border-top-color: #fff; }
 /* About seciton start */
 .section__content__inner { justify-content: space-between; padding: 50px 0px; }
 .section__right__content { display: flex; width: 100%; }
@@ -51,3 +38,31 @@ ul.menu li { padding: 10px 0px; }
 .about__exp_block.black { background: #000; margin-top: 30px; margin-bottom: 0; }
 .about_exp_p { font-size: 24px; }
 /* About seciton end */
+/* product slider section css start */
+#our-product { position: relative; }
+.our_products_title { margin: 0px 0px 80px; border-bottom: 1px solid #fff; padding-left: 0px; }
+.our_products_title h2 { padding-bottom: 20px; color: #fff; }
+.slider_section_bg::before { content: ""; position: absolute; background-color: #000; height: 600px; width: 100%; z-index: -1; }
+.our-products-section { padding-left:312px ; padding-top:100px ; }
+.slider__p__content { margin-top: 15px; border-top: 1px solid #000; padding-top: 20px; padding-right: 40px; /* padding-bottom: 13px; */ }
+.our-products-section .service_card { max-width: 420px; }
+.our-products-section .service_card .service_card_link .section__icon { margin-right: 10px; }
+.our-products-section .service_card .service_card_link { padding: 40px; padding-right: 0px; padding-bottom: 53px; height: 348px; }
+.our-products-section .service_card p { color: #000; opacity: .8; }
+.service_card_link.section__cta:hover { background: var(--theme-clr); color: #fff; }
+.service_card_link.section__cta:hover p { color: #fff; opacity: 1; }
+.service_card_link.section__cta:hover .slider__p__content { border-top-color: #fff; }
+/* product slider section css end */
+/* application css start */
+#application .application__links { padding: 50px 0; max-width: 100%; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #00000050; color: #000; }
+#application .section__right__content .section__cta__holder { width: 100%; flex-wrap: wrap; margin: 0px; }
+#application .application__name { width: 100%; margin-left: 30px; }
+/* application css end */
+.git_inner { position: relative; }
+.git_inner h2 { color: #fff; }
+.git_inner p { margin: 30px 0px 50px; }
+.git_content_main { position: absolute; top: 0; height: 100%; width: 100%; color: #fff; }
+.git_content_main .git_content { max-width: 435px; width: 100%; position: relative; top: 25%; left: 100px; }
+/* footer css start */
+.footer-email-section { background-color: var(--theme-clr); }
+/* footer css end */
