@@ -32,6 +32,7 @@ a:not(.header_nav_links, .cta ) { color: #AF5E3E; }
 .margin-right:not(.no-margin-right) { margin-right: 50px; }
 .margin-bottom:not(.no-margin-bottom) { margin-bottom: 50px; }
 .margin-left:not(.no-margin-left) { margin-left: 50px; }
+.d-block-custom { display: block; }
 /* COMMON CLASS STYLE END */
 /* button css start */
 .cta { display: flex; justify-content: center; align-items: center; gap: 15px; background-color: var(--theme-clr); border-radius: 50px; padding:10px 25px; color: #fff; position: relative; overflow: hidden; z-index: 9999; }
@@ -42,3 +43,8 @@ a:not(.header_nav_links, .cta ) { color: #AF5E3E; }
 /* icon css start */
 .theme_icon { max-width: 20px; width: 100%; }
 /* icon css end */
+/* slider button css start */
+.owl-nav { display: flex; gap: 20px; position: absolute; top: -139px; right: 288px; }
+.owl-carousel .owl-nav button { display: flex; color:#fff !important; background-color:  #000 !important; height: 30px; width: 30px; }
+.owl-carousel .owl-nav button.owl-prev { transform: scaleX(-1); opacity: .5; }
+/* slider button css end */
