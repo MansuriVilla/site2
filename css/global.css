@@ -18,9 +18,10 @@ h2 { font-weight:  500; font-size: 42px; color: #000; }
 h3 { font-size: 24px; font-weight: 500; }
 a { font-size: 18px; font-weight: 600; font-family: 'Inter 28pt'; text-decoration: none; }
 img { width: 100%; height: 100%; }
-a:not(.header_nav_links, .cta ) { color: #AF5E3E; }
+a:not(.eader_nav_links, .cta ) { color: #AF5E3E; }
 /* COMMON TITLE CSS END */
 /* COMMON CLASS STYLE START */
+
 .section__title { padding: 10px 0px; border-bottom: 1px solid #000; }
 .theme__clr__bg { background-color: #AF5E3E; }
 .theme__clr { color: #AF5E3E; }
@@ -35,6 +36,7 @@ a:not(.header_nav_links, .cta ) { color: #AF5E3E; }
 .margin-left:not(.no-margin-left) { margin-left: 50px; }
 .d-block-custom { display: block; }
 .black { background-color: #000; }
+.no_visible{display: none;}
 /* COMMON CLASS STYLE END */
 /* button css start */
 .cta { display: flex; justify-content: center; align-items: center; gap: 15px; background-color: var(--theme-clr); border-radius: 50px; padding:10px 25px; color: #fff; position: relative; overflow: hidden; z-index: 9999; }

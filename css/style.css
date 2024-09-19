@@ -6,8 +6,11 @@
 .header_navigations_links ul { display: flex; align-items: center; gap: 30px; }
 .header .menu-toggle,.off-canvas-menu { display: none; }
 ul.menu li { padding: 10px 0px; }
-.off-canvas-menu ul { margin: 0; padding: 0; list-style: none; flex-grow: 1; }
-.off-canvas-menu ul li { padding: 15px; }
+/* .off-canvas-menu{padding: 40px;} */
+.off-canvas-menu ul { margin: 0; padding: 0; list-style: none; flex-grow: 1;  text-align: center;}
+.off-canvas-menu ul li {transform: translateX(20%);visibility: hidden;opacity: 0; transition: .5s linear all; transition-delay: 10ms;}
+.off-canvas-menu.active ul li {transform: translateX(00%);visibility:visible;opacity: 1;}
+.off-canvas-menu ul li:not(.off-canvas-menu ul li:last-child) { padding: 15px; }
 .off-canvas-menu .cta_main { padding: 15px; background-color: #444; }
 .off-canvas-menu .cta { color: white; text-decoration: none; font-weight: bold; }
 .off-canvas-menu.active { transform: translateX(0); }
@@ -15,10 +18,11 @@ ul.menu li { padding: 10px 0px; }
 .header a { color: #fff; height: 100%; display: block; }
 /* Header css end */
 /* banner css start */
-.hero_inner { height: 100vh; width: 100%; overflow: hidden; }
+.hero_inner { height: 100vh; width: 100%; overflow: hidden; position: relative; }
 .hero_inner .banner_content { position: absolute; top: 0; z-index: 999; height: 100%; width: 100%; }
 .hero_inner .banner_content .content_inner { position: relative; color: #fff; top: 30%; max-width: 708px; width: 100%; left: 16%; }
 .banner_overlay::before { content: ''; position: absolute; height: 100%; width: 100%; background: linear-gradient(90deg, #000, transparent); display: block; }
+.banner_overlay {height: 1000px; }
 .content_inner p { margin-top: 30px; margin-bottom: 50px; max-width: 447px; width: 100%; }
 /* banner css end */
 /* service card css start */
@@ -70,6 +74,7 @@ ul.menu li { padding: 10px 0px; }
 .footer-email-section .email_input_area { border-radius: 50px; border: 1px solid #fff; display: inline-flex; justify-content: space-between; align-items: center; height: fit-content; padding: 12px 30px; max-width: 532px; width: 100%; }
 #footer .footer-main { padding: 60px 0px; }
 #footer .footer-main .footer_inner { display: flex; align-items: flex-start; justify-content: space-between; }
+#footer .footer-main .footer_inner .footer__center{ flex: 1; margin-left: 100px; }
 #footer .footer-main .footer__left a img { max-width: 147px; width: 100%; }
 #footer .footer-main .footer__right .contact_details { display: flex; flex-direction: column; gap: 30px; max-width: 341px; width: 100%; }
 #footer .footer-main .footer__right .contact_details a { color: #fff; }

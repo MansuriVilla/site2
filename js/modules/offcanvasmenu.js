@@ -1,5 +1,6 @@
 export function offcanvsMenu() {
 
+    
     const menuToggle = document.querySelector('.menu-toggle');
     const offCanvasMenu = document.querySelector('.off-canvas-menu');
     const menu = document.querySelector('.menu');
