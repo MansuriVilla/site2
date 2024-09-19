@@ -49,7 +49,7 @@ a:not(.eader_nav_links, .cta ) { color: #AF5E3E; }
 .theme_icon__resize { max-width: 35px; }
 /* icon css end */
 /* slider button css start */
-.owl-nav { display: flex; gap: 20px; position: absolute; top: -139px; right: 288px; }
+.owl-nav { display: flex !important; gap: 20px; position: absolute; top: -139px; right: 288px; }
 .owl-carousel .owl-nav button { display: flex; color:#fff !important; background-color:  #000 !important; height: 30px; width: 30px; }
 .owl-carousel .owl-nav button.owl-prev { transform: scaleX(-1); opacity: .5; }
 /* slider button css end */
