@@ -6,7 +6,7 @@ export function Slider() {
             nav: true,
             autoWidth: true,
             dots: false,
-            navText: ["<img src='../../assets/images/site_right_icon_fff.svg'>", "<img src='../../assets/images/site_right_icon_fff.svg'>"],
+            navText: ["<img src='./assets/images/site_right_icon_fff.svg'>", "<img src='./assets/images/site_right_icon_fff.svg'>"],
             responsive: {
                 0: {
                     items: 1
